@@ -23,4 +23,6 @@ vim.keymap.set("n", "<leader>tf", ":NvimTreeFocus<CR>", { noremap = true, silent
 
 vim.keymap.set("n", "<leader>sh", ":ToggleTerm<CR>", { noremap = true, silent = true })
 
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', {silent = true})
+
 vim.o.termguicolors = true
