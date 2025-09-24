@@ -10,7 +10,6 @@ vim.opt.number = true
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
-vim.keymap.set("n", "<leader>a", function() print "hi" end)
 local builtin = require("telescope.builtin")
 
 vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
